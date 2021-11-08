@@ -100,11 +100,11 @@ C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\bin\Debug\netcorea
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.csproj.CoreCompileInputs.cache
-C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.Views.pdb
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.csproj.CopyComplete
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.dll
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.pdb
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.genruntimeconfig.cache
 C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\source\repos\MVCFirstProject\MVCFirstProject\obj\Debug\netcoreapp3.1\MVCFirstProject.MvcApplicationPartsAssemblyInfo.cache

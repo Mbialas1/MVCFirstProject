@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.AspNet.Mvc.Mvc4Views.CSharp/5.1.0": {
+        "type": "package"
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1801,6 +1804,27 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNet.Mvc.Mvc4Views.CSharp/5.1.0": {
+      "sha512": "PJ1cw2P85sOn73U7OfxjnUTxvtLRfjbowUhgREytdo+9ikz0mmB3nRD1QfSDwIH7me3J60/qsEmxe0kD/rPPrg==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc.mvc4views.csharp/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/CodeTemplates/MvcView/Create.cs.t4",
+        "Content/CodeTemplates/MvcView/Delete.cs.t4",
+        "Content/CodeTemplates/MvcView/Details.cs.t4",
+        "Content/CodeTemplates/MvcView/Edit.cs.t4",
+        "Content/CodeTemplates/MvcView/Empty.cs.t4",
+        "Content/CodeTemplates/MvcView/Imports.include.t4",
+        "Content/CodeTemplates/MvcView/List.cs.t4",
+        "Content/CodeTemplates/MvcView/ModelMetadataFunctions.cs.include.t4",
+        "Content/CodeTemplates/MvcViewWithoutModel/Empty.cs.t4",
+        "Content/CodeTemplates/MvcViewWithoutModel/Imports.include.t4",
+        "microsoft.aspnet.mvc.mvc4views.csharp.5.1.0.nupkg.sha512",
+        "microsoft.aspnet.mvc.mvc4views.csharp.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -6015,6 +6039,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.AspNet.Mvc.Mvc4Views.CSharp >= 5.1.0",
+      "Microsoft.AspNetCore.Html.Abstractions >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
@@ -6059,6 +6085,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.AspNet.Mvc.Mvc4Views.CSharp": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "Microsoft.AspNetCore.Html.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"

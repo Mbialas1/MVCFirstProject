@@ -23,12 +23,13 @@ namespace MVCFirstProject.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        async public Task<IActionResult> Index()
         {
             Auth auth = new Auth(httpClient);
-            tagsList = auth.GetAuthResult().Result;
 
-            return View(tagsList);
+            ViewBag.msg = await auth.GetAuthResult();
+
+            return View();
         }
 
         public IActionResult Privacy()

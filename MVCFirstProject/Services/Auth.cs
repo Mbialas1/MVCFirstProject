@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
-using MVCFirstProject.Serializer;
 
 namespace MVCFirstProject.Services
 {
@@ -15,33 +14,33 @@ namespace MVCFirstProject.Services
         private static HttpClient httpClient = new HttpClient();
         private string content;
         #region Parameters
-        private const string redredirect_uri = "https://stackoverflow.com/oauth/login_success";
-        private const string client_id = "21122";
+        private const string redredirect_uri = "https://test";
+        private const string client_id = "testmateusza-cf76326bcd57420c5e7d7db136c03a85";
         #endregion
         public Auth(HttpClient _client)
         {
             httpClient = _client;
         }
 
-        public async Task<IEnumerable<Tags>> GetAuthResult()
+        public async Task<String> GetAuthResult()
         {
-
-            using(httpClient)
+            HttpResponseMessage responseMessage = null;
+            using (httpClient)
             {
                 httpClient.BaseAddress = new Uri(redredirect_uri);
                 httpClient.DefaultRequestHeaders.Clear();
                 httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                httpClient.DefaultRequestHeaders.Add("scope", String.Empty);
+                httpClient.DefaultRequestHeaders.Add("response_type", "code");
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("client_id", client_id);
 
-                HttpResponseMessage responseMessage = await httpClient.GetAsync("https://stackoverflow.com/oauth/dialog");
+                responseMessage = await httpClient.GetAsync("https://konto.furgonetka.pl/oauth/authorize");
 
                 if (responseMessage.IsSuccessStatusCode)
                     content = responseMessage.Content.ReadAsStringAsync().Result;
                 else return null;
             }
 
-            return new SerializerResponse(content).DeserializeTagsResponse();
+            return content;
         }
     }
 }

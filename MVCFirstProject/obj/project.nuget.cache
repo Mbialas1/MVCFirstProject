@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7cPxRXkaTQPHguC/WRX7YLGjGDO63i9rjCAQ7ke8oktFgIHdt3Yh8iJaultxzYLb9iEg4Tl5V6ft/oof6JPyPA==",
+  "dgSpecHash": "eEtP+q8dN9qMhfIIqfakuQMAawMQY2Ex8f/aZcHZhyjUhBWfNqa4SjXfaGapwaDL57gghx/vWReLVNAMkOqmIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mateusz\\source\\repos\\MVCFirstProject\\MVCFirstProject\\MVCFirstProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.aspnet.mvc.mvc4views.csharp\\5.1.0\\microsoft.aspnet.mvc.mvc4views.csharp.5.1.0.nupkg.sha512",
     "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
